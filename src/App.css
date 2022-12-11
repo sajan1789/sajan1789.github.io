@@ -1,38 +1,188 @@
+
 .App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
+  background: #1A202C;;
+  }
+  
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    height: 40vmin;
+    pointer-events: none;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
   }
-  to {
-    transform: rotate(360deg);
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
   }
-}
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  
+  .Navbar{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;;
+    z-index:4;
+    padding-top: 17px;;
+    padding-bottom: 12px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;  
+  
+  }
+   .Navbar-child1{
+    width:20%;
+    display: flex;;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    font-size: 28px;
+    font-weight: 1000;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+  
+  }
+  .Navbar-child2>a>h2:hover{
+      transform: scale(1.2); 
+      cursor: pointer;
+      scroll-behavior: smooth;
+      text-decoration: underline;
+      color:rgb(254, 145, 25);
+    
+  }
+  .Navbar-child1>h2:hover{
+    transform: scale(1.2); 
+    cursor: pointer;
+  
+  }
+  .Navbar-child1>h2{
+    color: rgb(254, 145, 25);
+    font-size: 35px;
+  }
+  .Navbar-child1>button{
+    background: #000;
+    color: white;
+    border-radius: 10px;
+  }
+  .Navbar-child2{
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    font-size: 17px;
+    width:40%;
+    font-weight: 700;
+    font-family: Poppins,sans-serif;
+      text-decoration: none;
+      color:skyblue
+  } 
+  @media only screen and (min-width: 676px) and (max-width: 965px) {
+    .Navbar{
+      padding-top: 15px;;
+      padding-bottom: 10px;
+  
+    }
+    .Navbar-child1{
+      font-size: 20px;
+      font-weight: 600;
+      width:30%;
+    
+    }
+    .Navbar-child2{
+      width:70%;
+      font-size: 15px;
+      justify-content: space-evenly; 
+  
+  }
+  .Navbar-child1>h2{
+    color: rgb(254, 145, 25);
+    font-size: 32px;
+  }
+  }
+  
+  @media only screen and (min-width: 450px) and (max-width: 675px) {
+    .Navbar{
+      padding-top: 15px;;
+      padding-bottom: 10px;
+  
+    }
+    .Navbar-child1{
+      font-size: 17px;
+      font-weight: 600;
+    width: 35%;
+    }
+    .Navbar-child2{
+      width:60%;
+      font-size: 12px;
+      justify-content: space-evenly;
+    } 
+    .Navbar-child1>h2{
+      color: rgb(254, 145, 25);
+      font-size: 25px;
+    }
+    .Navbar-child1>button{
+      width:40px;
+      margin-left: 20px;;
+      height:30px;
+    }
+   }
+  
+   @media only screen and (min-width: 200px) and (max-width: 449px) {
+    .Navbar{
+      padding-top: 15px;;
+      padding-bottom: 10px;
+      
+  
+    }
+    .Navbar-child1{
+      font-size: 12px;
+      font-weight: 500;
+      width: 40%;;
+    }
+    .Navbar-child2{
+      width:64%;
+      font-size: 8px;
+      font-weight: 400;
+    justify-content: space-evenly;
+    } 
+    .Navbar-child1>h2{
+      color: rgb(254, 145, 25);
+      font-size: 18px;
+    }
+  
+    .Navbar-child1>button{
+      width:5px;
+      margin-left: 5px;;
+      height:15px;
+      border-radius: 30%;
+  
+      font-size: 10px;
+    }
+  
+   }
+  
+  
