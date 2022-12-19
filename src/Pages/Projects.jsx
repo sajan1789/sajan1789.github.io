@@ -142,3 +142,20 @@ const Projects = () => {
 }
 
 export default Projects
+
+{/* <div  className="slider">
+<RangeSlider aria-label={['min', 'max']} defaultValue={[1, 99]}>
+<RangeSliderTrack bg='skyblue'>
+<RangeSliderFilledTrack bg='rgb(254, 145, 25)' />
+</RangeSliderTrack>
+<RangeSliderThumb boxSize={1} index={0}>
+<Box color='red' as={MdGraphicEq} />
+</RangeSliderThumb>
+<RangeSliderThumb boxSize={1} index={1}>
+<Box color='Green' as={MdGraphicEq} />
+</RangeSliderThumb>
+</RangeSlider>
+</div>
+</div>
+)
+} */}
