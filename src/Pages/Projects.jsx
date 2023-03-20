@@ -10,7 +10,7 @@ import "../CssPages/Projects.css"
 const Projects = () => {
   return (
     <div id="projectScroll">
-        <div className='Project'>
+        <div className='Project' id="projects">
             <h1>Projects</h1>
             <div className="ProjectGrid">
             {/* <Box   bg="#FEB2B2" className='Project1'  data-aos="fade-up"

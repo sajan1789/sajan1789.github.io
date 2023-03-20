@@ -6,9 +6,9 @@ import { Box, RangeSlider, RangeSliderTrack, RangeSliderFilledTrack, RangeSlider
 import "../CssPages/About.css"
 const About = () => {
   return (
-    <div id='aboutScroll'>
+    <div id='aboutScroll'  className='about section'>
 
- <div className='About' data-aos="fade-up"
+ <div id="about"  className='About' data-aos="fade-up"
     data-aos-offset="-100"
     data-aos-delay="50"
     data-aos-duration="1000"

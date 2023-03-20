@@ -13,7 +13,7 @@ const Skills = () => {
   
   return (
     <div id="SkillScroll">
-        <div  className='skill' >
+        <div  className='skill' id="skills">
            <h1>Skills</h1>
            <div className='SkillGrid' data-aos="fade-up"
     data-aos-offset="-100"

@@ -8,7 +8,7 @@ import "../CssPages/Contact.css"
 const Contact = () => {
   return (
     <div id="contactScroll">
-        <div className="Contact" >
+        <div className="Contact"  id="contact"> 
             <h1>Contact</h1>
           <div className='Flex' data-aos="fade-up"
     data-aos-offset="-100"

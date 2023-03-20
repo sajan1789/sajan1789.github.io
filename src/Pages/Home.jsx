@@ -14,7 +14,7 @@ const Home = () => {
   
   return (
     <div id="hero">
-    <div className='Home' >
+    <div className='Home' id="home" >
       <div className='Home-child1'  data-aos="fade-up"
     data-aos-offset="-100"
     data-aos-delay="50"
