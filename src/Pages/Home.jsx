@@ -23,8 +23,8 @@ const Home = () => {
     data-aos-mirror="true"
     data-aos-once="false"
     data-aos-anchor-placement="top-center" >
-          <div className='Img'  >
-            <Image w="80%" borderRadius="50%" src="https://avatars.githubusercontent.com/u/107640190?v=4"/>
+          <div className='home-img'  >
+            <Image  w="80%" borderRadius="50%" src="https://avatars.githubusercontent.com/u/107640190?v=4"/>
             </div>
          </div>
       <div className="Home-child2"  data-aos="fade-up"
@@ -39,7 +39,7 @@ const Home = () => {
            Full Stack Web Developer
 
          </h1>
-         <h2 >Sajan Kumar</h2>
+         <h2  >Sajan Kumar</h2>
 
          <p></p>
          <div className='btn1'>
