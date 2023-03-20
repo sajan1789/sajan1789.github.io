@@ -14,7 +14,7 @@ const closeMenu=()=>setClick(false)
 
   return (
    
-  <div className='Navbar' style={{backgroundColor:theme?"black":"#5E3943"}} >
+  <div className='Navbar' id='nav-menu' style={{backgroundColor:theme?"black":"#5E3943"}} >
    <div className='Navbar-child1'>
     <h2>Sajan Kumar</h2>
     
