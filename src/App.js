@@ -14,7 +14,7 @@ function App() {
   const style = {
     light: {
     
-      background:"black",
+      background:"gray",
     },
     dark: {
      
