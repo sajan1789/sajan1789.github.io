@@ -25,7 +25,7 @@ const closeMenu=()=>setClick(false)
    <Link to="SkillScroll" spy={true} smooth={true} offset={-100} duration={700} onClick={closeMenu}> <h2 className='nav-link skills'>Skills</h2></Link>
    <Link  to="projectScroll" spy={true} smooth={true} offset={-100} duration={700} onClick={closeMenu} className='nav-link projects'> <h2> Projects</h2></Link>
    <Link to="contactScroll" spy={true} smooth={true} offset={-100} duration={700} onClick={closeMenu} className='nav-link contact'> <h2>Contact</h2></Link>
-   <Button  onClick={handleClick}>{theme?<MoonIcon cursor="pointer"  class="nav-link resume"/>:<SunIcon cursor="pointer" />}</Button>
+   <Button  onClick={handleClick}>{theme?<MoonIcon cursor="pointer"  className='nav-link resume'/>:<SunIcon cursor="pointer" />}</Button>
    </div>
   </div>
  

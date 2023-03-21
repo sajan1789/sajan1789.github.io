@@ -13,7 +13,7 @@ const Projects = () => {
         <div className='Project' id="projects">
             <h1>Projects</h1>
             <div className="ProjectGrid">
-            <Box   bg="#FEB2B2" className='Project1'  data-aos="fade-up"
+            <Box   bg="#FEB2B2" className='project-card'  data-aos="fade-up"
     data-aos-offset="-100"
     data-aos-delay="50"
     data-aos-duration="1000"
@@ -24,7 +24,7 @@ const Projects = () => {
                      <div >
                         <img className='project-img' src="https://camo.githubusercontent.com/45abde137404d354a64414a3f43f3b458fc40d9754366d5c61c24b1f9997a03c/68747470733a2f2f692e6962622e636f2f4c726451714b4d2f74617461636c69712e706e67" />
                     </div >
-                    <div className='project-card'>
+                    <div className='project-card-'>
                         <h1 className='project-title' >Formal Click</h1>
                          <h3 style={{marginBottom:"10px"}} className='project-description'>It is a clone of Tata Cliq website which we named as Formal Click. Tata Cliq is an Indian e-commerce company based in Mumbai, India.</h3>
                            
@@ -40,7 +40,7 @@ const Projects = () => {
                     </div>
 
                 </Box>
-                <Box  bg="skyblue" style={{marginTop:"50px"}}  className='Project1' data-aos="fade-up"
+                <Box  bg="skyblue" style={{marginTop:"50px"}}  className='project-card' data-aos="fade-up"
     data-aos-offset="-100"
     data-aos-delay="50"
     data-aos-duration="1000"
@@ -51,7 +51,7 @@ const Projects = () => {
                      <div>
                         <img className='project-img' src="https://user-images.githubusercontent.com/96651559/221482831-dd15e5a0-a5ec-4b2c-99ae-7165f100c378.PNG" />
                      </div>
-                     <div className='project-card'>
+                     <div className='project-card-'>
                      <h1 className='project-title'>FurnitureTry</h1>
                        <h3 style={{marginBottom:"5px"}} className='project-description'>It is a clone of Pepperfry website which we named as FurnitureTry.FurnitureTry is an Indian online marketplace for furniture and home decor.</h3>
                        <li>Created the Sign-in and Sign-up functionality.</li>
@@ -69,7 +69,7 @@ const Projects = () => {
     'linear( teal.300, yellow.400)',
     'linear( blue.200, teal.500)',
     'linear(to-b, orange.100, purple.300)',
-  ]} className='Project1'  data-aos="fade-up"
+  ]} className='project-card'  data-aos="fade-up"
   data-aos-offset="-100"
   data-aos-delay="50"
   data-aos-duration="1000"
@@ -80,7 +80,7 @@ const Projects = () => {
                     <div >
                         <img className='project-img' src="https://crusher8010.github.io/static/media/Project5.185df6464ca7218061dc.png" />
                     </div>
-                    <div className='project-card'>
+                    <div className='project-card-'>
                         <h1 className='project-title' >Zee5 </h1>
                        <h3 style={{marginBottom:"5px"}} className='project-description'> ZEE-5 is a subscription-based streaming website that allows users to watch TV shows, movies, web-series and News on an internet-connected device.</h3>
                             <li>Created the Sign-in and Sign-up functionality using Fire-Base</li>
@@ -95,7 +95,7 @@ const Projects = () => {
                     </div>
 
                 </Box>
-                <Box  mt="65px" bg="#FEB2B2" className='Project1'  data-aos="fade-up"
+                <Box  mt="65px" bg="#FEB2B2" className='project-card'  data-aos="fade-up"
     data-aos-offset="-100"
     data-aos-delay="50"
     data-aos-duration="1000"
@@ -106,7 +106,7 @@ const Projects = () => {
                      <div >
                         <img className='project-img' src="https://camo.githubusercontent.com/45abde137404d354a64414a3f43f3b458fc40d9754366d5c61c24b1f9997a03c/68747470733a2f2f692e6962622e636f2f4c726451714b4d2f74617461636c69712e706e67" />
                     </div >
-                    <div className='project-card'>
+                    <div className='project-card-'>
                         <h1 className='project-title' >Formal Click</h1>
                          <h3 style={{marginBottom:"10px"}} className='project-description'>It is a clone of Tata Cliq website which we named as Formal Click. Tata Cliq is an Indian e-commerce company based in Mumbai, India.</h3>
                            
