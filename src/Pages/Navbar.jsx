@@ -21,11 +21,11 @@ const closeMenu=()=>setClick(false)
     </div>
    <div className='Navbar-child2'>
    <Link to="hero" spy={true} smooth={true} offset={-100} duration={700} onClick={closeMenu}> <h2 className='nav-link home'> Home</h2></Link>
-   <Link to="aboutScroll" spy={true} smooth={true} offset={-100} duration={700} onClick={closeMenu}><h2 className='nav-link about'> About</h2></Link>
-   <Link to="SkillScroll" spy={true} smooth={true} offset={-100} duration={700} onClick={closeMenu}> <h2 className='nav-link  skills'>Skills</h2></Link>
-   <Link  to="projectScroll" spy={true} smooth={true} offset={-100} duration={700} onClick={closeMenu} className='nav-link skills projects'> <h2> Projects</h2></Link>
+   <Link to="about" spy={true} smooth={true} offset={-100} duration={700} onClick={closeMenu}><h2 className='nav-link about'> About</h2></Link>
+   <Link to="SkillScroll" spy={true} smooth={true} offset={-100} duration={700} onClick={closeMenu}> <h2 className='nav-link skills'>Skills</h2></Link>
+   <Link  to="projectScroll" spy={true} smooth={true} offset={-100} duration={700} onClick={closeMenu} className='nav-link projects'> <h2> Projects</h2></Link>
    <Link to="contactScroll" spy={true} smooth={true} offset={-100} duration={700} onClick={closeMenu} className='nav-link contact'> <h2>Contact</h2></Link>
-   <Button  onClick={handleClick}>{theme?<MoonIcon cursor="pointer"  />:<SunIcon cursor="pointer" />}</Button>
+   <Button  onClick={handleClick}>{theme?<MoonIcon cursor="pointer"  class="nav-link resume"/>:<SunIcon cursor="pointer" />}</Button>
    </div>
   </div>
  

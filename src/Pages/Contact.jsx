@@ -45,14 +45,14 @@ const Contact = () => {
     data-aos-mirror="true"
     data-aos-once="false"
     data-aos-anchor-placement="top-center">
-          <Link  href="https://github.com/sajan1789"> <Button className='btn2' bg="#A0AEC0" id="contact-github"><Icon  w={[4,5]} h={12} as={BsGithub}/></Button></Link> 
-          <Link href="https://www.linkedin.com/in/sajan-kumar-gupta/">  <Button className='btn2' colorScheme="linkedin" ml="20px"  id="contact-linkedin"><Icon  w={[4,5]} h={12} as={BsLinkedin} /></Button></Link>
-           <Link href="tel:+917903661341"> <Button className='btn2' bg="#48BB78" ml="20px" id="contact-phone"><PhoneIcon  w={[4,5]} h={12} /></Button></Link>
+          <Link  href="https://github.com/sajan1789"> <Button className='btn2' bg="#A0AEC0" id="contact-github"><Icon  w={[4,5]} h={12} as={BsGithub}/>.</Button></Link> 
+          <Link href="https://www.linkedin.com/in/sajan-kumar-gupta/">  <Button className='btn2' colorScheme="linkedin" ml="20px"  id="contact-linkedin"><Icon  w={[4,5]} h={12} as={BsLinkedin} />.</Button></Link>
+           <Link href="tel:+917903661341"> <Button className='btn2' bg="#48BB78" ml="20px" id="contact-phone"><PhoneIcon  w={[4,5]} h={12} />.</Button></Link>
            <Link href="mailto:sajan99559@gmail.com"> <Button className='btn2' id="contact-email"  bgGradient={[
     'linear(to-tr, teal.300, yellow.400)',
     'linear(to-t, blue.200, teal.500)',
     'linear(to-b, orange.100, purple.300)',
-  ]} ml="20px"><EmailIcon  w={[4,5]} h={12} /></Button></Link>
+  ]} ml="20px"><EmailIcon  w={[4,5]} h={12} />.</Button></Link>
 
 
           </div>
