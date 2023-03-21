@@ -36,25 +36,25 @@
   margin-bottom: 60px;
 }
 
-.Project1>.ProjectD{
+.Project1>.project-card{
     text-align: left;
     color:black;
   
 }
 
-.Project1>.ProjectD>h1{
+.Project1>.project-card>h1{
     font-size: 30px;;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 600;
     margin-bottom: 20px;
 }
-.Project1>.ProjectD>li{
+.Project1>.project-card>li{
     font-size: 18px;;
     padding-left: 40px;
     font-family: sans-serif;
  
 }
-.Project1>.ProjectD>h2{
+.Project1>.project-card>h2{
     font-size: 18px;;
     padding-top: 30px;
     font-family: sans-serif;
@@ -100,15 +100,15 @@
         width:90%;
 
     }
-    .Project1>.ProjectD>h1{
+    .Project1>.project-card>h1{
         font-size: 25px;;
        
     }
-    .Project1>.ProjectD>li{
+    .Project1>.project-card>li{
         font-size: 15px;;
      
     }
-    .Project1>.ProjectD>h2{
+    .Project1>.project-card>h2{
         font-size: 15px;;
         padding-top: 20px;
         font-family: sans-serif;
@@ -153,7 +153,7 @@
       margin-left: 20px;
       
     }
-    .Project1>.ProjectD>h1{
+    .Project1>.project-card>h1{
         font-size: 26px;;
         margin-left: 40px;
         margin-top: 10px;
@@ -161,13 +161,13 @@
 
 
     }
-    .Project1>.ProjectD>li{
+    .Project1>.project-card>li{
         font-size: 17px;;
         font-family: sans-serif;
 margin-left: 25px;
      
     }
-    .Project1>.ProjectD>h2{
+    .Project1>.project-card>h2{
         font-size: 18px;;
         padding-top: 10px;
         margin-left: 40px;
@@ -207,7 +207,7 @@ margin-left: 25px;
       margin-left: 20px;
       
     }
-    .Project1>.ProjectD>h1{
+    .Project1>.project-card>h1{
         font-size: 23px;;
         margin-left: 40px;
         margin-top: 8px;
@@ -216,13 +216,13 @@ margin-left: 25px;
 
 
     }
-    .Project1>.ProjectD>li{
+    .Project1>.project-card>li{
         font-size: 14px;;
         font-family: sans-serif;
 margin-left: 25px;
      
     }
-    .Project1>.ProjectD>h2{
+    .Project1>.project-card>h2{
         font-size: 14px;;
         padding-top: 8px;
         margin-left: 40px;
