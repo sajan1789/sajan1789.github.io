@@ -17,13 +17,13 @@ const Stats = () => {
          <h1>Github Stats</h1>
       <div   className="StatsChild1">
         <a href="https://github.com/sajan1789">
-          <img
+          <img id="github-streak-stats"
             align="left"
             src="https://github-readme-streak-stats.herokuapp.com?user=sajan1789&theme=radical"
           />
         </a>
         <a href="https://github.com/sajan1789">
-          <img 
+          <img id="github-stats-card"
             align="left"
             src="https://github-readme-stats.vercel.app/api?username=sajan1789&theme=radical&count_private=true&show_icons=true" //stats
           />
@@ -33,7 +33,7 @@ const Stats = () => {
  
       <div className="StatsChild2">
         <a href="https://github.com/sajan1789">  
-          <img
+          <img id="github-top-langs"
             align="center"
             src="https://github-readme-stats.vercel.app/api/top-langs/?username=sajan1789&theme=radical"  //launguages
           />
