@@ -33,7 +33,7 @@ const closeMenu=()=>setClick(false)
       {/* <button id="resume-button-1" onClick="openResume()"> <a id="resume-link-1"
                 class="nav-link resume" href="./public/Nisha-Sharma-Resume.pdf" download>Resume</a></button> */}
                 <button id="resume-button-1">
-                <a  id="resume-link-1" href="https://drive.google.com/file/d/1mhCgM-NP_RMa0xnfnSoQhD8wTBSyrjv6/view?usp=sharing">Resume</a>
+                <a  id="resume-link-1" className="nav-link resume" href="https://drive.google.com/file/d/1mhCgM-NP_RMa0xnfnSoQhD8wTBSyrjv6/view?usp=sharing">Resume</a>
                 </button>
                 
 

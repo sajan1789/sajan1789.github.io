@@ -18,7 +18,12 @@ const About = () => {
     data-aos-anchor-placement="top-center">
     <h1 >About</h1>
     <h2 id="user-detail-name">I'm Sajan Kumar</h2>
-    <p   id="user-detail-intro">I am a Full stack web developer/MERN developer doing militry style coding and learning MERN Stack at Masai School. I have done various group as well as individual projects in my coding journey. I also did my B.C.A (Bachelor in Computer Application) from M.S College</p>
+    <p   id="user-detail-intro">A full stack web developer/MERN developer with 1000+ hours of coading experiance. My objective is simply
+                to be the
+                best web developer that i can be and to contribute to the technology industry all that i know.
+                A quick learner and problem solver who can compete with the fast growing tech industry. Experties in
+                building front end using React.js, Redux and developing the backend using Node.js and Express.js to
+                build a full fledged web applications.</p>
 <p>Drop a mail @ <Link href="mailto:sajan99559@gmail.com"><span style={{textDecoration:"underline",color:" rgb(254, 145, 25)",cursor:"pointer"}}>
     sajan99559@gmail.com </span></Link> <EmailIcon/> </p>
  </div>

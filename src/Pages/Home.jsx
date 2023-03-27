@@ -24,7 +24,7 @@ const Home = () => {
     data-aos-once="false"
     data-aos-anchor-placement="top-center" >
           <div  >
-            <Image  className='home-img' w="80%" borderRadius="50%" src="https://avatars.githubusercontent.com/u/107640190?v=4"/>
+            <img  className='home-img' w="80%" borderRadius="50%" src="https://avatars.githubusercontent.com/u/107640190?v=4" alt="Photo"/>
             </div>
          </div>
       <div className="Home-child2"  data-aos="fade-up"
