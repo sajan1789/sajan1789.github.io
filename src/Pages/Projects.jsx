@@ -14,12 +14,12 @@ const Projects = () => {
             <h1>Projects</h1>
             <div className="ProjectGrid">
             <Box   bg="#FEB2B2" className='project-card'  data-aos="fade-up"
-    data-aos-offset="-100"
-    data-aos-delay="50"
-    data-aos-duration="1000"
-    data-aos-easing="ease-in-out"
-    data-aos-mirror="true"
-    data-aos-once="false"
+    // data-aos-offset="-100"
+    // data-aos-delay="50"
+    // data-aos-duration="1000"
+    // data-aos-easing="ease-in-out"
+    // data-aos-mirror="true"
+    // data-aos-once="false"
     data-aos-anchor-placement="top-center"> 
                      <div >
                         <img className='project-img' src="https://camo.githubusercontent.com/45abde137404d354a64414a3f43f3b458fc40d9754366d5c61c24b1f9997a03c/68747470733a2f2f692e6962622e636f2f4c726451714b4d2f74617461636c69712e706e67" />
