@@ -60,7 +60,7 @@ const Projects = () => {
                   <h2 className='project-tech-stack'>Tech stack- React | Redux | JAVASCRIPT | Css | Chakra-Ui | Json-server | Auth0</h2>
               
                  <Link  className='project-deployed-link' href="https://furnituretry-official.netlify.app/">  <Button fontSize={{base:'0.8em'}} className='btn' mb="20px" color="black" bg="white">web</Button></Link>
-                 <Link className='project-github-link' href="https://github.com/sajan1789/Grbitz.com_Clone/tree/main/my-app"> <Button fontSize={{base:'0.8em'}} mb="20px"  className='btn' color="white" bg="black" ml="10px"> Github<Icon as={BsGithub} /></Button></Link>
+                 <Link className='project-github-link' href="https://github.com/prateek-bka/lazy-hose-3359"> <Button fontSize={{base:'0.8em'}} mb="20px"  className='btn' color="white" bg="black" ml="10px"> Github<Icon as={BsGithub} /></Button></Link>
 
                      </div>
                       
@@ -88,8 +88,8 @@ const Projects = () => {
                         
                        <h2 className='project-tech-stack'>Tech stack-React | JAVASCRIPT | Css | Chakra-Ui | Json-server | Fire-Base </h2>
                    
-                     <Link className='project-deployed-link' href="https://chic-bonbon-92e1a1.netlify.app"> <Button  fontSize={{base:'0.8em'}} className='btn' color="white" bgGradient='linear(to-l, ,purple,#7928CA, #FF0080)'>Website</Button></Link>  
-                     <Link className='project-github-link' href="https://github.com/sajan1789/Ecommerce-webside">  <Button  fontSize={{base:'0.8em'}} className='btn' color="white"  bg="black" ml="10px"> Github<Icon as={BsGithub} /></Button></Link>  
+                     <Link className='project-deployed-link' href="https://comfy-dragon-c64b1f.netlify.app/"> <Button  fontSize={{base:'0.8em'}} className='btn' color="white" bgGradient='linear(to-l, ,purple,#7928CA, #FF0080)'>Website</Button></Link>  
+                     <Link className='project-github-link' href="https://github.com/rittik24/Zee5.com.clone">  <Button  fontSize={{base:'0.8em'}} className='btn' color="white"  bg="black" ml="10px"> Github<Icon as={BsGithub} /></Button></Link>  
 
                   
                     </div>

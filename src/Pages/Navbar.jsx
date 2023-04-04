@@ -26,18 +26,10 @@ const closeMenu=()=>setClick(false)
    <Link to="SkillScroll" spy={true} smooth={true} offset={-100} duration={700} onClick={closeMenu}> <h2 className='nav-link skills'>Skills</h2></Link>
    <Link  to="projectScroll" spy={true} smooth={true} offset={-100} duration={700} onClick={closeMenu} className='nav-link projects'> <h2> Projects</h2></Link>
    <Link to="contactScroll" spy={true} smooth={true} offset={-100} duration={700} onClick={closeMenu} className='nav-link contact'> <h2>Contact</h2></Link>
-   {/* <Link to="https://drive.google.com/file/d/1mhCgM-NP_RMa0xnfnSoQhD8wTBSyrjv6/view?usp=sharing" id="resume-link-1"> 
-       <Button fontFamily="sans-serif" className='button'z id="resume-button-1" fontSize={{base:'1.1em'}}
-       color="black"  bg="skyblue">Resume|<ViewIcon/></Button>
-       </Link>  */}
-      {/* <button id="resume-button-1" onClick="openResume()"> <a id="resume-link-1"
-                class="nav-link resume" href="./public/Nisha-Sharma-Resume.pdf" download>Resume</a></button> */}
+   
                 <button id="resume-button-1">
-                <a  id="resume-link-1" className="nav-link resume" href="https://drive.google.com/file/d/1mhCgM-NP_RMa0xnfnSoQhD8wTBSyrjv6/view?usp=sharing">Resume</a>
+                <a  id="resume-link-1" className="nav-link resume" href="https://drive.google.com/u/0/uc?id=1mhCgM-NP_RMa0xnfnSoQhD8wTBSyrjv6&export=download">Resume</a>
                 </button>
-                
-
-   {/* <Button  onClick={handleClick}>{theme?<MoonIcon cursor="pointer"  className='nav-link resume'/>:<SunIcon cursor="pointer" />}</Button> */}
    </div>
   </div>
  
