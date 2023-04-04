@@ -47,7 +47,7 @@ const Home = () => {
        <Button fontFamily="sans-serif" className='button'z id="resume-button-1" fontSize={{base:'1.1em'}}
        color="black"  bg="skyblue">Resume|<ViewIcon/></Button>
        </Link>  */}
-       <Link href="https://drive.google.com/u/0/uc?id=1T1ulhRKDDXJbwPg9lHT1dpU6UDOQ0Ec8&export=download" id="resume-link-2"> <Button ml="4px"  id="resume-button-2" fontSize={{base:'1.1em'}} fontFamily="sans-serif" className='button'  color="black"  bgGradient='linear(to-r, darkgray,grey,white)' >Resume|<DownloadIcon/>
+       <Link href="https://drive.google.com/u/0/uc?id=1mhCgM-NP_RMa0xnfnSoQhD8wTBSyrjv6&export=download" id="resume-link-2"> <Button ml="4px"  id="resume-button-2" fontSize={{base:'1.1em'}} fontFamily="sans-serif" className='button'  color="black"  bgGradient='linear(to-r, darkgray,grey,white)' >Resume|<DownloadIcon/>
         </Button>
         </Link>
         <Link href="https://github.com/sajan1789"> <Button ml="4px"  fontSize={{base:'1.1em'}}  fontFamily="sans-serif" className='button'  color="white" colorScheme="linkedin">Github <Icon as={BsGithub}/>
