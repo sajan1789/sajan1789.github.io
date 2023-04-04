@@ -59,7 +59,7 @@ const Projects = () => {
                        <li>Created Footer Part</li>
                   <h2 className='project-tech-stack'>Tech stack- React | Redux | JAVASCRIPT | Css | Chakra-Ui | Json-server | Auth0</h2>
               
-                 <Link  className='project-deployed-link' href="https://drive.google.com/file/d/1oHF4pgDOvReUdcor_8KQ0syIy3FEcfCL/view">  <Button fontSize={{base:'0.8em'}} className='btn' mb="20px" color="black" bg="white">web</Button></Link>
+                 <Link  className='project-deployed-link' href="https://furnituretry-official.netlify.app/">  <Button fontSize={{base:'0.8em'}} className='btn' mb="20px" color="black" bg="white">web</Button></Link>
                  <Link className='project-github-link' href="https://github.com/sajan1789/Grbitz.com_Clone/tree/main/my-app"> <Button fontSize={{base:'0.8em'}} mb="20px"  className='btn' color="white" bg="black" ml="10px"> Github<Icon as={BsGithub} /></Button></Link>
 
                      </div>
