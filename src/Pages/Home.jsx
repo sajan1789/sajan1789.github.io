@@ -28,7 +28,7 @@ const Home = () => {
     data-aos-once="false"
     data-aos-anchor-placement="top-center" >
           <div  >
-            <img  className='home-img' w="80%" borderRadius="50%" src="https://avatars.githubusercontent.com/u/107640190?v=4" alt="Photo"/>
+            <Image  className='home-img' w="80%" borderRadius="50%" src="https://avatars.githubusercontent.com/u/107640190?v=4" alt="Photo"/>
             </div>
          </div>
       <div className="Home-child2"  data-aos="fade-up"
@@ -54,7 +54,7 @@ const Home = () => {
        {/* <Link href="https://drive.google.com/u/0/uc?id=1mhCgM-NP_RMa0xnfnSoQhD8wTBSyrjv6&export=download" id="resume-link-2"> <Button ml="4px"  id="resume-button-2" fontSize={{base:'1.1em'}} fontFamily="sans-serif" className='button'  color="black"  bgGradient='linear(to-r, darkgray,grey,white)' >Resume|<DownloadIcon/>
         </Button>
         </Link> */}
-         <a
+         {/* <a
                         href="https://drive.google.com/u/0/uc?id=1mhCgM-NP_RMa0xnfnSoQhD8wTBSyrjv6&export=download"
                         id="resume-link-2">
                         <div
@@ -67,7 +67,16 @@ const Home = () => {
                             id="resume-button-2">
                             Resume <DownloadIcon />
                         </div>
-                    </a>
+                    </a> */}
+                    <button id="resume-button-2" onClick={() =>
+                                openLink(
+                                    "https://drive.google.com/file/d/1mhCgM-NP_RMa0xnfnSoQhD8wTBSyrjv6/view?usp=sharing"
+                                )
+                            }>
+                      <a href="https://drive.google.com/u/0/uc?id=1mhCgM-NP_RMa0xnfnSoQhD8wTBSyrjv6&export=download" id="resume-link-2"> Resume</a>
+                    </button>
+
+
         <Link href="https://github.com/sajan1789"> <Button ml="4px"  fontSize={{base:'1.1em'}}  fontFamily="sans-serif" className='button'  color="white" colorScheme="linkedin">Github <Icon as={BsGithub}/>
         </Button>
         </Link>  
