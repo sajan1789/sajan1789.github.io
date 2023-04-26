@@ -18,7 +18,7 @@ function App() {
     },
     dark: {
      
-      background: "#75404F",
+      background: "white",
     
     }
   };
@@ -29,7 +29,8 @@ function App() {
  
   return (
     <div className="App" > 
-<div style={theme === false ? style.dark : style.light}>
+{/* <div style={theme === false ? style.dark : style.light}> */}
+  <div style={{background:"gray"}}>
       <Navbar handleClick={handleClick} theme={theme} />
       
       <Home />

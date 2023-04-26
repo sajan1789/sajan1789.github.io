@@ -28,7 +28,7 @@ const Home = () => {
     data-aos-once="false"
     data-aos-anchor-placement="top-center" >
           <div  >
-            <Image  className='home-img' w="80%" borderRadius="50%" src="https://avatars.githubusercontent.com/u/107640190?v=4" alt="Photo"/>
+            <Image  className='home-img' w="70%" borderRadius="50%" src="https://avatars.githubusercontent.com/u/107640190?v=4" alt="Photo"/>
             </div>
          </div>
       <div className="Home-child2"  data-aos="fade-up"
@@ -68,16 +68,16 @@ const Home = () => {
                             Resume <DownloadIcon />
                         </div>
                     </a> */}
-                    <button id="resume-button-2" onClick={() =>
+                    <Button ml="4px"  fontSize={{base:'1.1em'}}  fontFamily="sans-serif" className='button'  color="white"  id="resume-button-2" colorScheme="#10a37f" back onClick={() =>
                                 openLink(
                                     "https://drive.google.com/file/d/1mhCgM-NP_RMa0xnfnSoQhD8wTBSyrjv6/view?usp=sharing"
                                 )
                             }>
-                      <a href="https://drive.google.com/u/0/uc?id=1mhCgM-NP_RMa0xnfnSoQhD8wTBSyrjv6&export=download" id="resume-link-2"> Resume</a>
-                    </button>
+                      <a href="https://drive.google.com/u/0/uc?id=1mhCgM-NP_RMa0xnfnSoQhD8wTBSyrjv6&export=download" id="resume-link-2" > Resume <DownloadIcon/></a>
+                    </Button>
 
 
-        <Link href="https://github.com/sajan1789"> <Button ml="4px"  fontSize={{base:'1.1em'}}  fontFamily="sans-serif" className='button'  color="white" colorScheme="linkedin">Github <Icon as={BsGithub}/>
+        <Link href="https://github.com/sajan1789"> <Button ml="4px"  fontSize={{base:'1.1em'}}  fontFamily="sans-serif" className='button'  color="white" colorScheme="linkedin" >Github <Icon as={BsGithub}/>
         </Button>
         </Link>  
         
