@@ -1,25 +1,126 @@
-import { Box,Flex,Image,Text,Button, RangeSlider,
-  RangeSliderTrack,
-  RangeSliderFilledTrack,
-  RangeSliderThumb,
-  Link,Icon} from '@chakra-ui/react'
-import { DownloadIcon, ViewIcon, } from '@chakra-ui/icons'
-import { BsLinkedin,BsGithub } from 'react-icons/bs'
-import {MdGraphicEq } from 'react-icons/md'
+// import { Box,Flex,Image,Text,Button, RangeSlider,
+//   RangeSliderTrack,
+//   RangeSliderFilledTrack,
+//   RangeSliderThumb,
+//   Link,Icon} from '@chakra-ui/react'
+// import { DownloadIcon, ViewIcon, } from '@chakra-ui/icons'
+// import { BsLinkedin,BsGithub } from 'react-icons/bs'
+// import {MdGraphicEq } from 'react-icons/md'
 
+// import React from 'react'
+// import '../CssPages/Home.css';
+
+// const Home = () => {
+//   const openLink = (url) => {
+//     window.open(url);
+// };
+
+  
+//   return (
+//     <div id="hero">
+//     <div className='Home' id="home" >
+//       <div className='Home-child1'  data-aos="fade-up"
+//     data-aos-offset="-100"
+//     data-aos-delay="50"
+//     data-aos-duration="1000"
+//     data-aos-easing="ease-in-out"
+//     data-aos-mirror="true"
+//     data-aos-once="false"
+//     data-aos-anchor-placement="top-center" >
+//           <div  >
+//             <Image  className='home-img' w="70%" borderRadius="50%" src="https://avatars.githubusercontent.com/u/107640190?v=4" alt="Photo"/>
+//             </div>
+//          </div>
+//       <div className="Home-child2"  data-aos="fade-up"
+//     data-aos-offset="-100"
+//     data-aos-delay="50"
+//     data-aos-duration="1000"
+//     data-aos-easing="ease-in-out"
+//     data-aos-mirror="true"
+//     data-aos-once="false"
+//     data-aos-anchor-placement="top-center">
+//          <h1>
+//            Full Stack Web Developer
+
+//          </h1>
+//          <h2  >Sajan Kumar</h2>
+
+//          <p></p>
+//          <div className='btn1'>
+//        {/* <Link href="https://drive.google.com/file/d/1T1ulhRKDDXJbwPg9lHT1dpU6UDOQ0Ec8/view?usp=sharing"> 
+//        <Button fontFamily="sans-serif" className='button'z id="resume-button-1" fontSize={{base:'1.1em'}}
+//        color="black"  bg="skyblue">Resume|<ViewIcon/></Button>
+//        </Link>  */}
+//        {/* <Link href="https://drive.google.com/u/0/uc?id=1mhCgM-NP_RMa0xnfnSoQhD8wTBSyrjv6&export=download" id="resume-link-2"> <Button ml="4px"  id="resume-button-2" fontSize={{base:'1.1em'}} fontFamily="sans-serif" className='button'  color="black"  bgGradient='linear(to-r, darkgray,grey,white)' >Resume|<DownloadIcon/>
+//         </Button>
+//         </Link> */}
+//          {/* <a
+//                         href="https://drive.google.com/u/0/uc?id=1mhCgM-NP_RMa0xnfnSoQhD8wTBSyrjv6&export=download"
+//                         id="resume-link-2">
+//                         <div
+//                             onClick={() =>
+//                                 openLink(
+//                                     "https://drive.google.com/file/d/1mhCgM-NP_RMa0xnfnSoQhD8wTBSyrjv6/view?usp=sharing"
+//                                 )
+//                             }
+//                             className="home-resume"
+//                             id="resume-button-2">
+//                             Resume <DownloadIcon />
+//                         </div>
+//                     </a> */}
+//                     <Button ml="4px"  fontSize={{base:'1.1em'}}  fontFamily="sans-serif" className='button'  color="white"  id="resume-button-2" colorScheme="#10a37f" back onClick={() =>
+//                                 openLink(
+//                                     "https://drive.google.com/file/d/1mhCgM-NP_RMa0xnfnSoQhD8wTBSyrjv6/view?usp=sharing"
+//                                 )
+//                             }>
+//                       <a href="https://drive.google.com/u/0/uc?id=1mhCgM-NP_RMa0xnfnSoQhD8wTBSyrjv6&export=download" id="resume-link-2" > Resume <DownloadIcon/></a>
+//                     </Button>
+
+
+//         <Link href="https://github.com/sajan1789"> <Button ml="4px"  fontSize={{base:'1.1em'}}  fontFamily="sans-serif" className='button'  color="white" colorScheme="linkedin" >Github <Icon as={BsGithub}/>
+//         </Button>
+//         </Link>  
+        
+       
+
+
+//          </div>
+//       </div>
+//      </div>
+
+//      <div  className="slider">
+//      <RangeSlider aria-label={['min', 'max']} defaultValue={[1, 99]}>
+//   <RangeSliderTrack bg='skyblue'>
+//     <RangeSliderFilledTrack bg='rgb(254, 145, 25)' />
+//   </RangeSliderTrack>
+//   <RangeSliderThumb boxSize={1} index={0}>
+//     <Box color='red' />
+//   </RangeSliderThumb>
+//   <RangeSliderThumb boxSize={1} index={1}>
+//     <Box color='Green' as={MdGraphicEq} />
+//   </RangeSliderThumb>
+// </RangeSlider>
+// </div>
+//     </div>
+//   )
+// }
+
+// export default Home
+import {Image,Button,Icon} from '@chakra-ui/react'
+import { ViewIcon,DownloadIcon } from '@chakra-ui/icons'
+import {BsGithub } from 'react-icons/bs'
+import Typical from "react-typical"
 import React from 'react'
 import '../CssPages/Home.css';
 
 const Home = () => {
   const openLink = (url) => {
     window.open(url);
-};
-
-  
+  }
   return (
     <div id="hero">
-    <div className='Home' id="home" >
-      <div className='Home-child1'  data-aos="fade-up"
+    <div className='Home' id="home">
+      <div className='Home-child1'  data-aos="fade-right"
     data-aos-offset="-100"
     data-aos-delay="50"
     data-aos-duration="1000"
@@ -27,59 +128,62 @@ const Home = () => {
     data-aos-mirror="true"
     data-aos-once="false"
     data-aos-anchor-placement="top-center" >
-          <div  >
-            <Image  className='home-img' w="70%" borderRadius="50%" src="https://avatars.githubusercontent.com/u/107640190?v=4" alt="Photo"/>
+      <div className="round_css"></div>
+          <div className='Img'  >
+            <Image className='home-img'  w="90%" borderRadius="50%" src="https://avatars.githubusercontent.com/u/107640190?v=4"/>
             </div>
          </div>
-      <div className="Home-child2"  data-aos="fade-up"
-    data-aos-offset="-100"
+      <div className="Home-child2"  data-aos="fade-left"
+    data-aos-offset="-150"
     data-aos-delay="50"
     data-aos-duration="1000"
     data-aos-easing="ease-in-out"
     data-aos-mirror="true"
     data-aos-once="false"
     data-aos-anchor-placement="top-center">
-         <h1>
-           Full Stack Web Developer
-
+<h5>
+         <Typical
+          steps={[
+            "Hello World !",
+            2000,
+            "नमस्ते दुनिया 🙏",
+            2000,
+            "নমস্কার বিশ্ব 🙏",
+            2000,
+          ]}
+         loop={Infinity}
+         wrapper="p"
+         />
+         </h5>
+<h2 >Sajan Gupta</h2>
+      <h1>
+         <Typical
+          steps={[
+            "HI I AM SAJAN GUPTA",
+            2000,
+            "A PASSIONATE FULL STACK WEB DEVELOPER",
+            2000,
+          ]}
+         loop={Infinity}
+         wrapper="p"
+         />
          </h1>
-         <h2  >Sajan Kumar</h2>
-
-         <p></p>
+         <p>I am a web developer with a vast array of knowledge in many different frontend and backend languages, responsive frameworks, database, and best code practices.</p>
          <div className='btn1'>
-       {/* <Link href="https://drive.google.com/file/d/1T1ulhRKDDXJbwPg9lHT1dpU6UDOQ0Ec8/view?usp=sharing"> 
-       <Button fontFamily="sans-serif" className='button'z id="resume-button-1" fontSize={{base:'1.1em'}}
-       color="black"  bg="skyblue">Resume|<ViewIcon/></Button>
-       </Link>  */}
-       {/* <Link href="https://drive.google.com/u/0/uc?id=1mhCgM-NP_RMa0xnfnSoQhD8wTBSyrjv6&export=download" id="resume-link-2"> <Button ml="4px"  id="resume-button-2" fontSize={{base:'1.1em'}} fontFamily="sans-serif" className='button'  color="black"  bgGradient='linear(to-r, darkgray,grey,white)' >Resume|<DownloadIcon/>
-        </Button>
-        </Link> */}
-         {/* <a
-                        href="https://drive.google.com/u/0/uc?id=1mhCgM-NP_RMa0xnfnSoQhD8wTBSyrjv6&export=download"
-                        id="resume-link-2">
-                        <div
-                            onClick={() =>
+    
+                    <Button id="resume-button-2" onClick={() =>
                                 openLink(
-                                    "https://drive.google.com/file/d/1mhCgM-NP_RMa0xnfnSoQhD8wTBSyrjv6/view?usp=sharing"
-                                )
-                            }
-                            className="home-resume"
-                            id="resume-button-2">
-                            Resume <DownloadIcon />
-                        </div>
-                    </a> */}
-                    <Button ml="4px"  fontSize={{base:'1.1em'}}  fontFamily="sans-serif" className='button'  color="white"  id="resume-button-2" colorScheme="#10a37f" back onClick={() =>
-                                openLink(
-                                    "https://drive.google.com/file/d/1mhCgM-NP_RMa0xnfnSoQhD8wTBSyrjv6/view?usp=sharing"
+                                    "https://drive.google.com/file/d/1obTpyDhRp54LpszOAZORQhXybg2wfqsI/view?usp=sharing_link"
                                 )
                             }>
-                      <a href="https://drive.google.com/u/0/uc?id=1mhCgM-NP_RMa0xnfnSoQhD8wTBSyrjv6&export=download" id="resume-link-2" > Resume <DownloadIcon/></a>
+                      <a href="https://drive.google.com/u/0/uc?id=1obTpyDhRp54LpszOAZORQhXybg2wfqsI&export=download" id="resume-link-2"> Resume|<ViewIcon/></a>
                     </Button>
+      
 
-
-        <Link href="https://github.com/sajan1789"> <Button ml="4px"  fontSize={{base:'1.1em'}}  fontFamily="sans-serif" className='button'  color="white" colorScheme="linkedin" >Github <Icon as={BsGithub}/>
+       <a  target={"_blank"} href="https://github.com/sajan1789"> <Button ml="2px" fontSize="13px"   fontFamily="sans-serif" className='button'  color="black"  bgGradient='linear(to-r, darkgray,grey,white)' >Github <Icon as={BsGithub} />
         </Button>
-        </Link>  
+        </a>
+       
         
        
 
@@ -88,20 +192,8 @@ const Home = () => {
       </div>
      </div>
 
-     <div  className="slider">
-     <RangeSlider aria-label={['min', 'max']} defaultValue={[1, 99]}>
-  <RangeSliderTrack bg='skyblue'>
-    <RangeSliderFilledTrack bg='rgb(254, 145, 25)' />
-  </RangeSliderTrack>
-  <RangeSliderThumb boxSize={1} index={0}>
-    <Box color='red' />
-  </RangeSliderThumb>
-  <RangeSliderThumb boxSize={1} index={1}>
-    <Box color='Green' as={MdGraphicEq} />
-  </RangeSliderThumb>
-</RangeSlider>
-</div>
-    </div>
+      
+</div> 
   )
 }
 

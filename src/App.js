@@ -13,12 +13,11 @@ function App() {
   const[theme,setTheme]=useState(false)
   const style = {
     light: {
-    
-      background:"gray",
+      background:"black",
+     
     },
     dark: {
-     
-      background: "white",
+      background: "#011627",
     
     }
   };
@@ -29,10 +28,8 @@ function App() {
  
   return (
     <div className="App" > 
-{/* <div style={theme === false ? style.dark : style.light}> */}
-  <div style={{background:"gray"}}>
+<div style={theme === false ? style.dark : style.light}>
       <Navbar handleClick={handleClick} theme={theme} />
-      
       <Home />
       <About />
       <Skills />

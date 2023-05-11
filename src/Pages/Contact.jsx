@@ -56,7 +56,7 @@ const Contact = () => {
 
 
           </div>
-            <h4 className='footer'>Built by Sajan Kumar © 2022</h4>
+            <h4 className='footer'>Built by Sajan Gupta © 2023</h4>
         </div>
 
     </div>
