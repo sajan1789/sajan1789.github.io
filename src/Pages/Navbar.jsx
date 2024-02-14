@@ -20,7 +20,9 @@ import { Link } from "react-scroll";
 const Navbar = ({ handleClick, theme }) => {
   const [click, setClick] = useState(false);
   const [openMenuBar, setOpenMenuBar] = useState(false);
-  const closeMenu = () => setClick(false);
+  const closeMenu = () => {
+        setOpenMenuBar(false)
+  }
   const toggleMenu = () => {
     setOpenMenuBar(!openMenuBar);
   };
